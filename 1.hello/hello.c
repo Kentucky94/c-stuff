@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello world!\n");
+    double c = 5.0 / 2.0;
+
+    printf("Result: %lf\n", c);
 
     return 0;
 }

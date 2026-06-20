@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Do not ignore folders, so Git can search inside them
+!*/
+
+# Do not ignore files that end with .c and .txt
+!*.c
+!*.txt
+
+# Optional: Do not ignore the .gitignore file itself
+!.gitignore

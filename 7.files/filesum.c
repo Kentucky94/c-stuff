@@ -21,6 +21,7 @@ int main () {
     }
 
     intfilesum(src, &sum, &count);
+    // intfilesum(stdin, &sum, &count); getting results from standard input
 
     printf("Results: %d %d \n", sum, count);
 

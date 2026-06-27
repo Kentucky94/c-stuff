@@ -120,26 +120,6 @@ void free_items_recursive (struct item *first) {
     free(first);
 }
 
-// void remove_negatives (struct item *current) {
-//     struct item *prev = NULL, *next = NULL;
-
-//     for (; current; current = next) {
-//         next = current->next;
-
-//         if (current->value < 0) {
-//             // move pointers
-//             if (prev) {
-//                 prev->next = next;
-//             }
-
-//             // free current
-//             free(current);
-//         } else {
-//             prev = current;
-//         }
-//     }
-// }
-
 int main () {
     struct item *first_in_list;
     int numbers[] = {5, 32, 545, 2, 6};
